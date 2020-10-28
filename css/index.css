@@ -32,6 +32,7 @@ nav{
     justify-content: space-between;
     padding-top: 3rem;
     padding-bottom:2.5rem;
+    flex-wrap:wrap;
 }
 
 nav .fa-bars{
@@ -66,7 +67,7 @@ nav a{
 
 /* header section  */
 .section-max{
-    max-width: 1050px;
+    max-width: 1150px;
     margin: 0 auto;
     margin-top: 4rem;
     text-align: center;
@@ -84,6 +85,11 @@ nav a{
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.mean section{
+    width: 30%;
 }
 
 .mean section span{
@@ -125,7 +131,7 @@ nav a{
 /* 2 section part  */
 
  .section-mmax{
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     margin-top: 6rem;
@@ -139,11 +145,12 @@ nav a{
 
 .changes section{
     width: 40%;
+    flex-wrap: wrap;
 }
 
 .changes section img{
-    border-radius: 100%;
-    width: 45%;
+    border-radius: 50%;
+    width: 30%;
 }
 
 .changes section h3{
@@ -260,13 +267,13 @@ footer{
     /* navigation  */
 
     nav{
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 2rem 2rem 2rem 1rem;
     }
 
     ul{
         display: none;
         position: absolute;
-        top: 5.5rem;
+        top: 6rem;
         left: 0rem;
         padding-left: 0rem;
     }
@@ -278,36 +285,35 @@ footer{
     }
 
     ul li a{
-        font-size:0.8rem ;
+        font-size:1.2rem ;
+        font-weight: 100;
     }
 
     nav .fa-bars{
         display:block;
         color: whitesmoke;
-        font-size: 1rem;
         width: 1rem;
         height: 1rem;
-        position: relative;
-        top: -0.4rem;
-        left: -0.4rem;
+        font-size: 2.4rem;
     }
     
     
     nav a{
         align-items: center;
         padding-top: 0.4rem;
-        font-size: 0.8rem;
+        font-size: 1.4rem;
     }
 
 
 
     /* header section  */
     .section-max h1 a{
-        font-size: 1.5rem;
+        font-size: 3.2rem;
     }
 
     .section-max h1{
-        margin-top: 5.5rem;
+        margin-top: 7.5rem;
+        
     }
 
     .mean{
@@ -317,8 +323,11 @@ footer{
     }
 
     .section-max .mean section{
+        width: 100%;
+    }
+
+    .section-max .mean section{
         padding-bottom: 1rem;
-        box-shadow:0.1rem 0.1rem 0.2rem grey;
         margin-top: 2rem;
     }
 
@@ -332,9 +341,11 @@ footer{
     .mean hr{
         display: block;
         border: 0;
-        width: 0.1rem;
-        height: auto;
-        background-color: grey;
+        width: 50%;
+        margin: 0 auto;
+        height: 0.1rem;
+        background-color:grey;
+        margin-top: 1.8rem;
     }
 
 
